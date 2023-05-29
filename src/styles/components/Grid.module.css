@@ -1,0 +1,30 @@
+.table {
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: .5rem;
+}
+
+.table > thead {
+    background: #5B63B7;
+}
+
+.table > thead > tr > th {
+    padding: 1rem;
+}
+
+.table > tbody > tr {
+    border: 1px solid black;
+}
+
+.table > tbody > tr > td {
+    border: 1px solid black;
+    padding: .75rem;
+}
+
+@media screen and (width <= 748px) {
+    .container {
+        overflow: scroll;
+    }
+}

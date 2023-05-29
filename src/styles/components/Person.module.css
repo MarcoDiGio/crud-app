@@ -1,0 +1,16 @@
+.container > td > button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #CBCCFF;
+    transition: all 0.2s ease-in;
+}
+
+.container > td:last-child {
+    min-width: 3.9rem;
+}
+
+.container > td > button:hover {
+    transform: scale(1.4);
+    color: #B5B6E2;
+}

@@ -1,0 +1,22 @@
+.number-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.number-container > button {
+    cursor: pointer;
+    background-color: #CBCCFF;
+    padding: .75rem 1rem;
+    border: none;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    transition: all .1s ease-in;
+}
+
+.number-container > button:hover {
+    background-color: #B5B6E2;
+    transform: scale(1.2);
+}

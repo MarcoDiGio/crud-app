@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main > div {
+    width: 70%;
+    text-align: center;
+}
+
+.main > div > button {
+    cursor: pointer;
+    background-color: #CBCCFF;
+    padding: .75rem;
+    border: none;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    transition: all .1s ease-in;
+}
+
+.main > div > button:hover {
+    background-color: #B5B6E2;
+    transform: scale(1.1);
+}
+
+@media screen and (width <= 748px) {
+    .main > div {
+        width: 95%;
+    }
+}
